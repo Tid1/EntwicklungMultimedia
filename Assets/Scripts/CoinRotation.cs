@@ -13,6 +13,6 @@ public class CoinRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.Rotate(new Vector3(1f, 0f, 0f), 0.8f, Space.Self);
+        this.transform.Rotate(new Vector3(1f, 0f, 0f), 400f * Time.deltaTime, Space.Self);
     }
 }
